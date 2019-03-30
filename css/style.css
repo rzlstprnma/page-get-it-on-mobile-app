@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile:before{
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('../images/snow-winter-car-night-nature-imac-27.jpg') no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    position: fixed;
+}
+
+.mobile{
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.mobile-phone{
+    margin: 4%;
+    width: 300px;
+    position: relative;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: 3px solid #000;
+}
+
+.row{
+    content: "";
+    clear: both;
+    display: inline;
+}
+
+.poni{
+    position: absolute;
+    width: calc(100%/2);
+    background-color: #000;
+    height: 30px;
+    text-align: center;
+    margin-left: 25%;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 1;
+}
+
+.line{
+    width: 45px;
+    height: 4px;
+    background: #151515;
+    box-shadow: 0px 0px 0px 2px #000;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 12px;
+    left: 30%;
+}
+
+.camera{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    float: right;
+    background-color: #0d1722;
+    right: 25%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 4px #000;
+    margin-top: 10px;
+}
+
+.layar{
+    z-index: 2;
+    height: 550px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 200;
+    box-sizing: border-box;
+    background: url('../images/download.jpeg') no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    height: 30px;
+}
+
+.top-bar{
+    float: left;
+    margin-top: 13px;
+    padding: 0 2px;
+    font-size: 10px;
+}
+
+.top-bar p{
+    margin-left: 30px;
+}
+
+.right{
+    margin-left: 230px;
+}
+
+.apps{
+    margin: 40px 17px;
+    padding: 0 8px;
+}
+
+.app{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(202, 202, 202, 0.8);
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    margin: 17px 5px;
+    cursor: pointer;
+}
+
+.app img{
+    width: 100%;
+    height: 100%;      
+}
+
+.app p{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.shortcut{
+    width: 270px;
+    height: 65px;
+    background-color: rgb(255, 255, 255, 0.4);
+    position: absolute;
+    bottom: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+.container-shortcut{
+    width: calc(100%/5);
+    padding-left: 10px;
+    margin-top: 13px;
+    float: left;
+    cursor: pointer;
+}
+
+.container-shortcut img{
+    width: 70%;
+}
+
+.container-indicator{
+    width: 40;
+    height: 10px;
+    position: absolute;
+    bottom: 85px;
+    left: 40%;
+}
+
+.indicator{
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    float: left;
+    margin-left: 5px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    cursor: pointer;
+}
+
+.indicator2{
+    width: 20px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    float: left;
+    margin-left: 5px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.caption{
+    color: #fff;
+    position: absolute;
+    left: 36%;
+    float: right;
+    margin-top: 350px;
+}
+
+.caption span{
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.caption img{
+    float: left;
+    width: 200px;
+    height: 60px;
+    padding-left: 20px;
+    cursor: pointer;
+}
